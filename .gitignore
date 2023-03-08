@@ -1,0 +1,19 @@
+# ignore these folders:
+docs/_site
+docs/.sass-cache
+node_modules
+
+# ignore these files:
+.ds_store
+.history
+.prettierignore
+*.vsix
+
+# --------------------
+
+# include these folders:
+!/.idea/
+!/.vscode/
+
+
+# include these files:

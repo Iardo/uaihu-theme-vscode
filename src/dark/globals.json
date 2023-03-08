@@ -1,0 +1,54 @@
+{
+  "syntax": {
+    "keyword": "#F06292",
+    "symbols": "#FFC107",
+    "tags": "#FFCCBC",
+    "text": "#FFFFFF",
+    "link": "#2ECC71"
+  },
+  "ui": {
+    "accent": "#FFC107",
+    "accentAlt": "#F06292",
+    "background": "#1C1E26",
+    "backgroundAlt": "#232530",
+    "backgroundLight": "#6C6F93",
+    "border": "#2E303E",
+    "cursor": "#FFC107",
+    "modified": "#FAB38E",
+    "negative": "#F06292",
+    "positive": "#2ECC71",
+    "selection": "#2A3EB1",
+    "selectionAlt": "#2A3EB1",
+    "shadow": "#16161C",
+    "textDark": "#06060C",
+    "textLight": "#FFFFFF"
+  },
+  "ansi": {
+    "normal": {
+      "blue": "#2196F3",
+      "cyan": "#2196F3",
+      "green": "#4CAF50",
+      "magenta": "#F06292",
+      "red": "#F06292",
+      "yellow": "#F1C40F",
+      "white": "#FFFFFF"
+    },
+    "bright": {
+      "blue": "#2196F3",
+      "cyan": "#2196F3",
+      "green": "#4CAF50",
+      "magenta": "#F06292",
+      "red": "#F06292",
+      "yellow": "#F1C40F",
+      "white": "#FFFFFF"
+    }
+  },
+  "alpha": {
+    "high": "E6",
+    "highMed": "B3",
+    "med": "80",
+    "medLow": "4D",
+    "low": "1A",
+    "none": "00"
+  }
+}

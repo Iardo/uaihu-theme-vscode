@@ -1,0 +1,46 @@
+{
+  "name": "uaihu-theme-vscode",
+  "displayName": "Uaihu Theme",
+  "description": "Yet another dark theme for VSCode",
+  "author": "Ivan Ramos",
+  "publisher": "iardo",
+  "license": "MIT",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.26.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "uaihu"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Uaihu",
+        "uiTheme": "vs-dark",
+        "path": "./themes/uaihu.json"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "npm run build:dark && prettier . --write",
+    "build:dark": "node src/dark/build",
+    "watch:dark": "nodemon --watch src --exec \"npm run build:dark\""
+  },
+  "devDependencies": {
+    "mustache": "^3.0.1",
+    "nodemon": "^2.0.21",
+    "prettier": "^2.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iardo/uaihu-theme-vscode"
+  },
+  "bugs": {
+    "url": "https://github.com/iardo/uaihu-theme-vscode/issues"
+  }
+}
