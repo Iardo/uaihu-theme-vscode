@@ -353,7 +353,7 @@
         "meta.object-literal.key"
       ],
       "settings": {
-        "foreground": "{{ syntax.text }}{{ alpha.high }}"
+        "foreground": "{{ syntax.symbols }}{{ alpha.high }}"
       }
     },
     {
