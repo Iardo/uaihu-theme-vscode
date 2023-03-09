@@ -350,7 +350,8 @@
     {
       "scope": [
         "support.type.property-name",
-        "meta.object-literal.key"
+        "meta.object-literal.key",
+        "variable.other.property.js"
       ],
       "settings": {
         "foreground": "{{ syntax.symbols }}{{ alpha.high }}"
