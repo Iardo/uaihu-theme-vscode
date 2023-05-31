@@ -6,7 +6,7 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Extension",
+      "name": "extension",
       "type": "extensionHost",
       "preLaunchTask": "npm: build:dark",
       "request": "launch",

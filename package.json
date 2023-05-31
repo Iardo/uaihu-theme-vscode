@@ -17,15 +17,6 @@
     "dark",
     "uaihu"
   ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Uaihu",
-        "uiTheme": "vs-dark",
-        "path": "./themes/uaihu.json"
-      }
-    ]
-  },
   "scripts": {
     "build": "npm run build:dark && prettier . --write",
     "build:dark": "node src/dark/build",
@@ -36,11 +27,4 @@
     "nodemon": "^2.0.21",
     "prettier": "^2.5.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/iardo/uaihu-theme-vscode"
-  },
-  "bugs": {
-    "url": "https://github.com/iardo/uaihu-theme-vscode/issues"
-  }
 }
